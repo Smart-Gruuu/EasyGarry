@@ -1,0 +1,58 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]64/
+*.zip
+
+# NuGet (packages.config restores into packages/)
+packages/
+!packages/build/
+*.nupkg
+*.snupkg
+
+# Visual Studio user and cache files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# ClickOnce publish output
+publish/
+*.application
+*.publish.xml
+
+# Signing certificates and keys
+*.pfx
+*.snk
+*.p12
+
+# Secrets and local config
+*.env
+.env.*
+appsettings.*.local.json
+secrets.json
+
+# Logs (Serilog file sink)
+logs/
+*.log
+
+# Test and coverage results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
